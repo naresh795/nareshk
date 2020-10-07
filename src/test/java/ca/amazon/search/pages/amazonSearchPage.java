@@ -27,8 +27,8 @@ public class amazonSearchPage extends PageObject {
 		
 		$("//A[@id='s-result-sort-select_1']").click();
 		
-		String texto = $("//span[contains(text(),'Bluebluesky Red, White, Blue Microfiber Polyester ')]").getText();
-		String actuaal = "Bluebluesky Red, White, Blue Microfiber Polyester Face Mask Mouth Cover Bandana Neck Gaiter Neckerchief Cool Lightweight";
+		String texto = $("//span[contains(text(),'Fast Delivery goalBY Blue Face Bandanas Storage Bo')]").getText();
+		String actuaal = "Fast Delivery goalBY Blue Face Bandanas Storage Box, Disposable Face 𝐌𝐀𝐒𝐊 Packaging Box Custom 𝐌𝐀𝐒𝐊s Box";
 		System.out.println(texto);
 		Assert.assertEquals(texto, actuaal);
 	
