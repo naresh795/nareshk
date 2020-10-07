@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ca.amazon.search.runners.amazonSearchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 37.123 sec <<< FAILURE! - in ca.amazon.search.runners.amazonSearchTest
+Amazon Canada Search for Blue masks(Amazon Canada Search)  Time elapsed: 31.869 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Expected condition failed: waiting for By.xpath: //span[contains(text(),'Bluebluesky Red, White, Blue Microfiber Polyester ')] to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-TS8V7MS', ip: '192.168.0.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for By.xpath: //span[contains(text(),'Bluebluesky Red, White, Blue Microfiber Polyester ')] to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-TS8V7MS', ip: '192.168.0.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: unknown
+

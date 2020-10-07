@@ -1,0 +1,4 @@
+ca\amazon\search\runners\amazonSearchTest.class
+ca\amazon\search\steps\amazonSearchSteps.class
+ca\amazon\search\actions\amazonSearchActions.class
+ca\amazon\search\pages\amazonSearchPage.class
