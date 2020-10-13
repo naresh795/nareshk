@@ -10,12 +10,8 @@
 * Written in Java with Junit, Cucumber & Maven
 * Can run test scripts in parallel
 
-## Setup:
-* Install [Java 8](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
-* Install Maven [Maven](https://maven.apache.org/)
-* Ensure that you change http to https in pom.xml before running the project
-* "mvn archetype:generate -Dfilter=net.serenity-bdd:serenity-cucumber-archetype" to setup project from scratch
-* Install "natural plugin" using eclipse marketplace 
+## Chrome Driver Version
+* This project is running on Chrome Version 86
 
 ## Run tests:
 * `mvn clean verify` OR `mvn clean verify -Dwebdriver.driver=chrome`  - Run test scripts using Chrome browser.
